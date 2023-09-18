@@ -19,7 +19,7 @@ class GradeCalculator:
         function returns None.
         """
         if grades.quiz_1 is None or grades.quiz_2 is None or grades.midterm is None or grades.project is None or grades.final is None:
-            print("Can't calculate final grade without all assignments graded")
+            print("Can't calculate final grade without all assignments graded 02010301")
             return None
         else:
             quizzes_part = ((grades.quiz_1 + grades.quiz_2) / 2) * weights.quizzes
